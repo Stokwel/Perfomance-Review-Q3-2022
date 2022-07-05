@@ -1,0 +1,54 @@
+.ik_select {
+	left: 130px;
+	top: 20px;
+	min-width: 70px!important;
+	background-color: #fff;
+	float: left;
+}
+
+.ik_select:hover { 
+	cursor: pointer;
+}
+.ik_select_link_text {
+	padding-right: 30px;
+	background: url(../img/bottomArrow3.png) no-repeat right center;
+}
+.ik_select_link_text, .ik_select_option {
+	color: #131212;
+	font-size: 14px;
+}
+
+.ik_select_option_label {
+	padding-right: 30px;		
+}
+	
+.ik_select_option {
+	border-top: 1px solid #d8d8d8;
+	padding: 5px 10px;
+}
+
+.ik_select_option:hover {
+	cursor: pointer;
+	background-color: #f7f7f7;
+}
+
+.ik_select_link {
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+	padding: 5px 10px;
+	padding-right: 10px;
+}
+
+.ik_select_list {
+	margin-top: -1px;
+	border: 1px solid #d8d8d8;
+	border-top: 0;
+	border-radius: 0 0 5px 5px;
+	background-color: #fff;
+}
+
+.ik_select_list_inner ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}

@@ -1,0 +1,3 @@
+.content .item > img.floatLeft + .h, .content .item > a > img.floatLeft + .h {
+	line-height: 28px;
+}

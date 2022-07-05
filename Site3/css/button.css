@@ -1,0 +1,84 @@
+.button_type1 {
+	background: url('../img/button_type1.png') no-repeat right -279px;
+	float: left;
+	height: 51px;
+	padding-right: 20px;
+}
+
+.button_type1 span {
+	background: url('../img/button_type1.png') no-repeat 0 -222px;
+	float: left;
+    height: 36px;
+	padding-left: 20px;
+	padding-top: 15px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.button_type1:hover {
+	background: url('../img/button_type1.png') no-repeat right -163px;
+}
+
+.button_type1:hover span {
+	background: url('../img/button_type1.png') no-repeat 0 -111px;
+}
+
+.button_type1:active {
+	background: url('../img/button_type1.png') no-repeat right -55px;
+}
+
+.button_type1:active span {
+	background: url('../img/button_type1.png') no-repeat 0 0px;
+}
+
+.button_type2 {
+	background: url('../img/button_type2.png') no-repeat right -373px;
+	float: left;
+	height: 68px;
+	padding-right: 40px;
+}
+
+.button_type2 span {
+	background: url('../img/button_type2.png') no-repeat 0 -299px;
+	float: left;
+    height: 45px;
+	padding-left: 40px;
+	padding-top: 23px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.button_type2:hover {
+	background: url('../img/button_type2.png') no-repeat right -225px;
+}
+
+.button_type2:hover span {
+	background: url('../img/button_type2.png') no-repeat 0 -151px;
+}
+
+.button_type2:active {
+	background: url('../img/button_type2.png') no-repeat right -76px;
+}
+
+.button_type2:active span {
+	background: url('../img/button_type2.png') no-repeat 0 0px;
+}
+
+.button_type3 {
+	border-radius: 5px 5px 5px 5px;
+	border: 1px #fff solid;
+	background-color: #f3f0f2;
+	padding: 11px 18px;
+	color: #242424;
+	font-size: 15px;
+	font-weight: 700;
+	float: left;
+	text-decoration: none;
+}
+
+.button_type3:hover {
+	cursor: pointer;
+	color: #c90209;
+}

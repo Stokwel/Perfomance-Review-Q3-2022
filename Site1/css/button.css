@@ -1,0 +1,27 @@
+.button_type1 {
+	background: url('../img/button.png') no-repeat right -39px;
+	float: left;
+	height: 39px;
+	padding-right: 46px;
+	transition: background-color 1s ease-out;
+}
+
+.button_type1 span {
+	background: url('../img/button.png') no-repeat 0 0px;
+	float: left;
+    height: 30px;
+	padding-left: 46px;
+	padding-top: 9px;
+	color: #ffffff;
+	font-size: 16px;
+    font-family: 'HelveticaNeueCyr-Medium';
+}
+
+.button_type1:hover {
+	background: url('../img/button.png') no-repeat right -119px;
+	filter: drop-shadow(5px 5px 5px orange);
+}
+
+.button_type1:hover span {
+	background: url('../img/button.png') no-repeat 0 -80px;
+}

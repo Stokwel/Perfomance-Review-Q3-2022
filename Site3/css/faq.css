@@ -1,0 +1,51 @@
+.contentCol1 {
+	overflow: auto;
+}
+
+.contentCol1 .promoBlock2 {
+	margin: 0;
+	margin-top: 50px;
+	width: 47%;
+	float: left;
+}
+
+.contentCol1 .promoBlock2:first-child {
+	margin-right: 50px;
+}
+
+.contentCol1 .promoBlock2 .item {
+	padding: 25px 30px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 60px;
+	padding: 0;
+}
+
+.item .avatar {
+	text-align: left;
+	overflow: auto;
+}
+
+.item .avatar img {
+	float: left;
+	margin-right: 20px;
+}
+
+.item .avatar span {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.contentCol1 .promoBlock2 .item p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.buttonWrapp {
+	clear: both;
+	margin-bottom: 20px;
+}
+

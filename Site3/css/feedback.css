@@ -1,0 +1,69 @@
+.contentCol1 {
+	overflow: auto;
+}
+.contentCol1 h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.contentCol1 .promoBlock2 {
+	margin-top: 50px;
+	width: auto;
+}
+
+.contentCol1 .promoBlock2 .item {
+	border-radius: 5px 5px 5px 5px;
+	border: 1px #e5e5e5 solid;
+	color: #000;
+	font-weight: 700;
+	background-color: #fafafa;
+	/*width: 435px;*/
+	width: 42%;
+	/*height: 130px;*/
+	float: left;
+	/*margin-right: 25px;*/
+	margin-right: 17px;
+	text-align: right;
+	margin-bottom: 35px;
+	line-height: 21px;
+	padding: 17px 30px;
+}
+
+.contentCol1 .promoBlock2 .item.last {
+	margin-right: 0;
+	float: right;
+}
+
+.item .avatar {
+	text-align: left;
+}
+
+.item .avatar span {
+	left: 10px;
+    position: relative;
+    top: -10px;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contentCol1 .promoBlock2 .item p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #000;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.item .about {
+	color: #626262;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.contentCol1 > .buttonWrapp {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+

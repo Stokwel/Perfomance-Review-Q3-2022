@@ -1,0 +1,327 @@
+body {
+	/*min-width: 1293px;*/
+}
+
+.contentWrapper {
+	margin-top: 15px;
+}
+
+.header {
+	background: #fff url('../img/bg_header_landing.png') 44% top no-repeat;
+	box-shadow: none;
+	min-width: 1105px;
+}
+
+.header > div{
+	height: 655px; 
+	background: none;
+}
+
+.header .logo div {
+	color: #000;
+}
+
+.header .buttons {
+	float: right;
+	margin-top: 29px;
+	margin-right: 20px;
+}
+
+.header .buttons .button_type3:first-child {
+	margin-right: 22px;
+}
+
+.header .fromBlock {
+	width: 685px;
+	position: absolute;
+	left: 400px;
+	top: 100px;
+}
+
+.header .fromBlock .promoText h1 {
+	color: #242424;
+	font-size: 23px;
+	font-weight: 700;
+	margin-top: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header .fromBlock .promoText p { 
+	color: #242424;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.header .fromBlock .form {
+	margin-top: 30px;
+	background-color: #fff;
+	box-shadow: 0 6px 14px 0 rgba(134, 145, 152, 0.58);
+	padding: 30px 23px;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	padding-bottom: 25px;
+}
+
+.header .fromBlock .form .input {
+	float: left;
+}
+
+.header .fromBlock .form .input.first {
+	margin-right: 15px;
+	margin-bottom: 17px;
+}
+
+.header .fromBlock .form .input input, .header .fromBlock .form .textarea textarea, .ik_select_link {
+	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+	padding: 12px 10px;
+	background-color: #e8e8e8;
+	border: 1px solid #bdbdbd;
+	width: 290px;
+	height: 14px;
+	/*color: rgba(125, 125, 125, 0.8);*/
+	color: #000;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.error {
+	border-left: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-top: 1px solid #ff0000;
+    box-shadow: 0 0 4px #ff0000 inset;
+}
+
+.header .fromBlock .form .input input::-webkit-input-placeholder, .header .fromBlock .form .textarea textarea::-webkit-input-placeholder {
+    color: rgba(125, 125, 125, 0.8);
+}
+.header .fromBlock .form .input input::-moz-placeholder, .header .fromBlock .form .textarea textarea::-moz-placeholder { 
+	color: rgba(125, 125, 125, 0.8);
+}
+
+.header .fromBlock .form .input input:focus::-webkit-input-placeholder, .header .fromBlock .form .textarea textarea:focus::-webkit-input-placeholder {color: transparent;}
+.header .fromBlock .form .input input:focus::-moz-placeholder , .header .fromBlock .form .textarea textarea:focus::-moz-placeholder  {color: transparent;}
+.header .fromBlock .form .input input:focus:-moz-placeholder , .header .fromBlock .form .textarea textarea:focus:-moz-placeholder  {color: transparent;}
+.header .fromBlock .form .input input:focus:-ms-input-placeholder, .header .fromBlock .form .textarea textarea:focus:-ms-input-placeholder{color: transparent;}
+
+.ik_select:hover {
+	cursor: pointer;
+}
+
+.ik_select_link  {
+	padding: 0;
+	height: 38px;
+	width: 310px;
+	background: #e8e8e8 url('../img/select_arrow.png') 289px center no-repeat;
+}
+
+.ik_select_link_text {
+	overflow: hidden;
+	white-space: nowrap;
+	border-right: 1px solid #bdbdbd;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 260px;
+	padding-top: 12px;
+	height: 26px;
+}
+
+.ik_select_dropdown {
+	background-color: #e8e8e8;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.ik_select_list_inner ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	color: rgba(125, 125, 125, 0.8);
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.ik_select_optgroup_label {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.ik_select_optgroup .ik_select_option {
+	padding-left: 20px;
+}
+
+.ik_select_option:hover {
+	cursor: pointer;
+	background-color: /*3399ff*/#71b1f2;
+}
+
+.header .fromBlock .form .textarea  {
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.header .fromBlock .form .textarea textarea {
+	text-align: left;
+	width: 100%;
+	height: 51px;
+	width: 617px;
+	max-width: 617px;
+	min-width: 617px;
+	min-height: 51px;
+	max-height: 51px;
+	font-family: 'Trebuchet MS';
+}
+
+.header .fromBlock .form .buttonWrapp {
+	float: right;
+}
+
+.header .fromBlock .form p {
+	color: #000000;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
+.contentCol1 {
+	float: left;
+	margin-right: 50px;
+	padding-right: 40px;
+}
+
+.contentCol1 span {
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contentCol1 ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 10px;
+}
+
+.contentCol1 ul li a{
+	color: #618f26;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.contentCol1 a.allSubjectLink {
+	float: right;
+	margin-right: -40px;
+	color: #618f26;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.contentCol1 a.allSubjectLink:hover, .contentCol1 ul li a:hover {
+	color: #f03a36;
+}
+
+.contentCol2 {
+	overflow: auto;
+}
+
+.contentCol2 h2 {
+	color: #242424;
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contentCol2 p {
+	color: #242424;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.contentCol2 p a {
+	color: #618f25;
+	text-decoration: none;
+}
+
+.contentCol2 p a:hover {
+	color: #f03a36;
+}
+ 
+.contentCol2 p.bold {
+	font-weight: 700;
+}
+
+.contentCol2 h3 {
+	color: #242424;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contentCol2 ul {
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 28px;
+	margin: 0;
+}
+
+.contentCol2 ul li:before {
+    content: "— "; 
+	color: #91b55f;
+}
+
+.contentCol2 ol {
+	counter-reset: item;
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 28px;
+	margin: 0;
+}
+
+.contentCol2 ol li:before {
+    color: #91b55f;
+    content: counter(item, decimal) ". ";
+    counter-increment: item; 
+}
+
+.contentCol2 .trig {
+	width: 100%;
+	background-color: #fafafa;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px #e5e5e5 solid;
+	padding: 15px 20px;
+	table-layout: fixed;
+}
+
+.contentCol2 .trig tr:first-child th {
+	border: none;
+	font-size: 20px;
+	font-weight: 700;
+	height: auto;
+	padding-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contentCol2 .trig th {
+	text-align: left;
+	border-top: 1px #e5e5e5 solid;
+	font-size: 15px;
+	font-weight: 700;
+	height: 35px;
+}
+
+.contentCol2 .trig tr td{
+	border-top: 1px #e5e5e5 solid;
+	font-size: 15px;
+	font-weight: 400;
+	height: 35px;
+}
+
+.contentCol2 > .buttonWrapp {
+	overflow: auto;
+	padding-left: 35%;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
