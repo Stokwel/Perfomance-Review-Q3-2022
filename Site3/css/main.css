@@ -52,7 +52,7 @@ img.floatRight {
 	position: relative;
 }
 
-.mainWrapper {
+main {
 	min-width: 964px;
 	max-width: 1080px;
 
@@ -64,7 +64,7 @@ img.floatRight {
 	overflow: hidden;
 }
 
-.header {
+header {
 	-webkit-box-shadow: inset 0 -3px 13px rgba(0,0,0,.15); 
 	-moz-box-shadow: inset 0 -3px 13px rgba(0,0,0,.15); 
 	box-shadow: inset 0 -3px 13px rgba(0,0,0,.15); 
@@ -75,7 +75,7 @@ img.floatRight {
 	background-image: linear-gradient(to top, rgba(0,0,0,.14), rgba(255,255,255,.14));
 }
 
-.header > div {
+header > div {
 	max-width: 1280px;
 	min-width: 1024px;
 	height: 145px;
@@ -87,13 +87,13 @@ img.floatRight {
 	padding-right: 100px;*/
 }
 
-.header .logo {
+header .logo {
 	margin-top: 37px;
 	margin-left: 100px;
 	float: left;
 	text-decoration: none;
 }
-.header .logo div {
+header .logo div {
 	color: #ffffff;
 	font-size: 12px;
 	font-weight: 400;
@@ -102,7 +102,7 @@ img.floatRight {
 	text-align: center;
 }
 
-.header .text {
+header .text {
 	color: #ffffff;
 	font-size: 15px;
 	font-style: italic;
@@ -114,30 +114,30 @@ img.floatRight {
 	float: left;
 }
 
-.header .text > div {
+header .text > div {
 	margin-right: 6px;
 	height: 70px;
 	float: left;
 }
 
-.header .counter {
+header .counter {
 	float: right;
 	margin-top: 29px;
 	margin-right: 74px;
 }
 
-.header .counter > div:first-child {
+header .counter > div:first-child {
 	margin-left: 7px;
 	overflow: auto;
 }
 
-.header .counter > div{
+header .counter > div{
 	color: #ffffff;
 	font-size: 12px;
 	font-weight: 400;
 }
 
-.header .counter .number {
+header .counter .number {
 	width: 31px; 
 	height: 43px;
 	float: left;
@@ -371,7 +371,7 @@ img.floatRight {
 	margin-top: 70px;
 }
 
-.footer {
+footer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -383,7 +383,7 @@ img.floatRight {
 	
 }
 
-.footer > div {
+footer > div {
 	max-width: 1280px;
 	min-width: 1024px;
 	margin: 0 auto;
@@ -394,23 +394,23 @@ img.floatRight {
 	padding-right: 100px;*/
 }
 
-.footer > div > div {
+footer > div > div {
 	overflow: auto;
 	padding-bottom: 20px;
 	padding-left: 100px;
 }
 
-.footer .col1 {
+footer .col1 {
 	float: left;
 	padding-right: 25px;
 }
 
-.footer .copyright {
+footer .copyright {
 	font-size: 12px;
 	font-weight: 700;
 }
 
-.footer .copyright a {
+footer .copyright a {
 	color: #fff;
 	text-decoration: none;
 	background: url("../img/email-ico.png") no-repeat 0 3px;
@@ -418,7 +418,7 @@ img.floatRight {
 	margin-left: 25px;
 }
 
-.footer .col1 p {	
+footer .col1 p {
 	color: #d3e3f1;
 	font-size: 11px;
 	font-style: italic;
@@ -427,43 +427,43 @@ img.floatRight {
 	margin-left: 15px;
 }
 
-.footer .col2, .footer .col3 {
+footer .col2, footer .col3 {
 	padding-left: 2%;
 	padding-right: 2%;
 	float: left;
 	border-left: 1px solid #98c5e2;
 }
 
-.footer .col2 .h , .footer .col3 .h {
+footer .col2 .h , footer .col3 .h {
 	font-size: 12px;
 	font-weight: 700;
 	color: #fff;
 	text-decoration: none;
 }
 
-.footer .col2 ul, .footer .col3 ul {
+footer .col2 ul, footer .col3 ul {
 	list-style-type: none;
 	padding-left: 0;
 	margin-top: 5px;
 	margin-bottom: 0;
 }
 
-.footer .col2 ul li, .footer .col3 ul li {
+footer .col2 ul li, footer .col3 ul li {
 	height: 15px;
 }
 
-.footer .col2 ul li a, .footer .col3 ul li a {
+footer .col2 ul li a, footer .col3 ul li a {
 	font-size: 12px;
 	font-weight: 400;
 	color: #fff;
 	text-decoration: none;
 }
 
-.footer .col3 {
+footer .col3 {
 	border-right: 1px solid #98c5e2;
 }
 
-.footer .col2 ul li a:hover, .footer .col3 ul li a:hover, .footer .col2 .h:hover, .footer .col3 .h:hover {
+footer .col2 ul li a:hover, footer .col3 ul li a:hover, footer .col2 .h:hover, footer .col3 .h:hover {
 	text-decoration: underline;
 }
 

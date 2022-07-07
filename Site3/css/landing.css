@@ -6,39 +6,39 @@ body {
 	margin-top: 15px;
 }
 
-.header {
+header {
 	background: #fff url('../img/bg_header_landing.png') 44% top no-repeat;
 	box-shadow: none;
 	min-width: 1105px;
 }
 
-.header > div{
+header > div{
 	height: 655px; 
 	background: none;
 }
 
-.header .logo div {
+header .logo div {
 	color: #000;
 }
 
-.header .buttons {
+header .buttons {
 	float: right;
 	margin-top: 29px;
 	margin-right: 20px;
 }
 
-.header .buttons .button_type3:first-child {
+header .buttons .button_type3:first-child {
 	margin-right: 22px;
 }
 
-.header .fromBlock {
+header .fromBlock {
 	width: 685px;
 	position: absolute;
 	left: 400px;
 	top: 100px;
 }
 
-.header .fromBlock .promoText h1 {
+header .fromBlock .promoText h1 {
 	color: #242424;
 	font-size: 23px;
 	font-weight: 700;
@@ -46,13 +46,13 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.header .fromBlock .promoText p { 
+header .fromBlock .promoText p { 
 	color: #242424;
 	font-size: 15px;
 	font-weight: 400;
 }
 
-.header .fromBlock .form {
+header .fromBlock .form {
 	margin-top: 30px;
 	background-color: #fff;
 	box-shadow: 0 6px 14px 0 rgba(134, 145, 152, 0.58);
@@ -62,16 +62,16 @@ body {
 	padding-bottom: 25px;
 }
 
-.header .fromBlock .form .input {
+header .fromBlock .form .input {
 	float: left;
 }
 
-.header .fromBlock .form .input.first {
+header .fromBlock .form .input.first {
 	margin-right: 15px;
 	margin-bottom: 17px;
 }
 
-.header .fromBlock .form .input input, .header .fromBlock .form .textarea textarea, .ik_select_link {
+header .fromBlock .form .input input, header .fromBlock .form .textarea textarea, .ik_select_link {
 	text-align: center;
 	border-radius: 5px 5px 5px 5px;
 	padding: 12px 10px;
@@ -92,17 +92,17 @@ body {
     box-shadow: 0 0 4px #ff0000 inset;
 }
 
-.header .fromBlock .form .input input::-webkit-input-placeholder, .header .fromBlock .form .textarea textarea::-webkit-input-placeholder {
+header .fromBlock .form .input input::-webkit-input-placeholder, header .fromBlock .form .textarea textarea::-webkit-input-placeholder {
     color: rgba(125, 125, 125, 0.8);
 }
-.header .fromBlock .form .input input::-moz-placeholder, .header .fromBlock .form .textarea textarea::-moz-placeholder { 
+header .fromBlock .form .input input::-moz-placeholder, header .fromBlock .form .textarea textarea::-moz-placeholder { 
 	color: rgba(125, 125, 125, 0.8);
 }
 
-.header .fromBlock .form .input input:focus::-webkit-input-placeholder, .header .fromBlock .form .textarea textarea:focus::-webkit-input-placeholder {color: transparent;}
-.header .fromBlock .form .input input:focus::-moz-placeholder , .header .fromBlock .form .textarea textarea:focus::-moz-placeholder  {color: transparent;}
-.header .fromBlock .form .input input:focus:-moz-placeholder , .header .fromBlock .form .textarea textarea:focus:-moz-placeholder  {color: transparent;}
-.header .fromBlock .form .input input:focus:-ms-input-placeholder, .header .fromBlock .form .textarea textarea:focus:-ms-input-placeholder{color: transparent;}
+header .fromBlock .form .input input:focus::-webkit-input-placeholder, header .fromBlock .form .textarea textarea:focus::-webkit-input-placeholder {color: transparent;}
+header .fromBlock .form .input input:focus::-moz-placeholder , header .fromBlock .form .textarea textarea:focus::-moz-placeholder  {color: transparent;}
+header .fromBlock .form .input input:focus:-moz-placeholder , header .fromBlock .form .textarea textarea:focus:-moz-placeholder  {color: transparent;}
+header .fromBlock .form .input input:focus:-ms-input-placeholder, header .fromBlock .form .textarea textarea:focus:-ms-input-placeholder{color: transparent;}
 
 .ik_select:hover {
 	cursor: pointer;
@@ -155,12 +155,12 @@ body {
 	background-color: /*3399ff*/#71b1f2;
 }
 
-.header .fromBlock .form .textarea  {
+header .fromBlock .form .textarea  {
 	clear: both;
 	margin-bottom: 25px;
 }
 
-.header .fromBlock .form .textarea textarea {
+header .fromBlock .form .textarea textarea {
 	text-align: left;
 	width: 100%;
 	height: 51px;
@@ -172,11 +172,11 @@ body {
 	font-family: 'Trebuchet MS';
 }
 
-.header .fromBlock .form .buttonWrapp {
+header .fromBlock .form .buttonWrapp {
 	float: right;
 }
 
-.header .fromBlock .form p {
+header .fromBlock .form p {
 	color: #000000;
 	font-size: 13px;
 	font-weight: 700;
