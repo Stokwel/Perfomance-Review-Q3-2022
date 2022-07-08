@@ -61,7 +61,7 @@ func main() {
 }
 
 func counterHandler(w http.ResponseWriter, _ *http.Request) {
-	counterMetric.With(prometheus.Labels{"method": "counter"}).Inc()
+	incrementCounter("counter")
 	_, err := w.Write([]byte("Counter was incremented"))
 	if err != nil {
 		fmt.Println(err)
